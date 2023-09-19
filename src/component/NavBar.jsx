@@ -1,3 +1,5 @@
+import DarkTheme from "./DarkTheme";
+
 function NavBar() {
   return (
     <div className="navbar bg-base-100">
@@ -32,7 +34,7 @@ function NavBar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-xl">todo app</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -46,7 +48,7 @@ function NavBar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <DarkTheme />
       </div>
     </div>
   );
